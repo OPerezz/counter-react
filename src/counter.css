@@ -1,0 +1,53 @@
+.counter {
+     width: 300px;
+     height: 300px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+     background-color: aqua;
+     border-radius: 20px;
+     box-shadow: 10px 10px 10px rgb(2, 126, 126);
+}
+
+.counter span {
+     font-size: 80px;
+     color: white;
+     font-family: inter;
+     font-weight: 700;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: #000;
+}
+
+.counter .buttons {
+     width: 100px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.counter button {
+     width: 40px;
+     height: 40px;
+     background-color: darkblue;
+     color: white;
+     font-family: inter;
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0;
+     margin: 0;
+     border: 1px solid black;
+     border-radius: 10px;
+     transition: color 0.4s ease; 
+     transition: color 0.4s ease;
+}
+
+.counter button:active {
+     background-color: aliceblue;
+     color: aqua;
+     transition: color 0.4s ease;
+     transition: background-color 0.4s ease;
+}
